@@ -95,6 +95,7 @@ footer p {
   background-color: #0056b3;
 }
 
+
 .resources-list {
   list-style: none;
   padding: 0;
@@ -112,14 +113,6 @@ footer p {
 .resource-item a:hover {
   text-decoration: underline;
 }
-
-/* Additional style for the "No resources available" message */
-p {
-  color: #ff0000; /* Add color to make it visible */
-  font-size: 1.2rem;
-  margin-top: 10px;
-}
-
 .courses-footer {
   text-align: center;
   background-color: #282c34;
