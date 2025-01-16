@@ -96,21 +96,21 @@ footer p {
 }
 
 
-.resources-list {
+ul {
   list-style: none;
   padding: 0;
 }
 
-.resource-item {
+ul.resource-item {
   margin-bottom: 15px;
 }
 
-.resource-item a {
+ul.resource-item a {
   color: #007bff;
   text-decoration: none;
 }
 
-.resource-item a:hover {
+ul.resource-item a:hover {
   text-decoration: underline;
 }
 .courses-footer {
