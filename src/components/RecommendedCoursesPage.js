@@ -937,7 +937,7 @@ const RecommendedCoursesPage = () => {
             <ul className="resources-list">
               {selectedSubfield.resources.map((resource, index) => (
                 <li key={index} className="resource-item">
-                  <a href={resource.link} >
+                  <a href={resource.link} target="_blank" rel="noopener noreferrer">
                     {resource.title}
                   </a>
                 </li>
