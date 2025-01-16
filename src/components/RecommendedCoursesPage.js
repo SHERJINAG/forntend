@@ -459,8 +459,8 @@ const RecommendedCoursesPage = () => {
         { "title": "Introduction to Game Theory - YouTube", "link": "https://www.youtube.com/watch?v=ghi901" },
         { "title": "Game Theory Basics - Coursera", "link": "https://www.coursera.org/learn/game-theory" }
       ]
-    }
-  ]
+    },
+  ],
 },
 {
   "name": "Science",
@@ -864,15 +864,14 @@ const RecommendedCoursesPage = () => {
         "resources": [
           { "title": "Digital Art Techniques - YouTube", "link": "https://www.youtube.com/watch?v=ghi556" },
           { "title": "Digital Art - edX", "link": "https://www.edx.org/course/digital-art" }
-        ]
-      }
-    ]
-  }
+        ],
+      },
+    ],
+  },
 
 
 
 ];
-
 
   const [selectedField, setSelectedField] = useState(null);
   const [selectedSubfield, setSelectedSubfield] = useState(null);
@@ -885,6 +884,7 @@ const RecommendedCoursesPage = () => {
   const handleSubfieldClick = (subfield) => {
     setSelectedSubfield(subfield);
   };
+
   const navigate = useNavigate();
 
   return (
@@ -935,13 +935,17 @@ const RecommendedCoursesPage = () => {
             <h2>{selectedSubfield.name}</h2>
             <button onClick={() => setSelectedSubfield(null)} className="back-button">Back</button>
             <ul className="resources-list">
-              {selectedSubfield.resources.map((resource, index) => (
-                <li key={index} className="resource-item">
-                  <a href={resource.link} target="_blank" rel="noopener noreferrer">
-                    {resource.title}
-                  </a>
-                </li>
-              ))}
+              {selectedSubfield.resources.length > 0 ? (
+                selectedSubfield.resources.map((resource, index) => (
+                  <li key={index} className="resource-item">
+                    <a href={resource.link} target="_blank" rel="noopener noreferrer">
+                      {resource.title}
+                    </a>
+                  </li>
+                ))
+              ) : (
+                <p>No resources available</p>
+              )}
             </ul>
           </div>
         )}
