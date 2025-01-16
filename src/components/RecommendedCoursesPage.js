@@ -934,15 +934,16 @@ const RecommendedCoursesPage = () => {
           <div>
             <h2>{selectedSubfield.name}</h2>
             <button onClick={() => setSelectedSubfield(null)} className="back-button">Back</button>
-            <ul className="resources-list">
-              {selectedSubfield.resources.map((resource, index) => (
-                <li key={index} className="resource-item">
-                  <a href={resource.link} target="_blank" rel="noopener noreferrer">
-                    {resource.title}
-                  </a>
-                </li>
-              ))}
-            </ul>
+          <ul className="new-resources-list">
+  {selectedSubfield.resources.map((resource, index) => (
+    <li key={index} className="new-resource-item">
+      <a href={resource.link} target="_blank" rel="noopener noreferrer">
+        {resource.title}
+      </a>
+    </li>
+  ))}
+</ul>
+
           </div>
         )}
       </div>
