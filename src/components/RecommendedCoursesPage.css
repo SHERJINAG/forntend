@@ -94,25 +94,26 @@ footer p {
 .back-button:hover {
   background-color: #0056b3;
 }
-
-
-ul {
+.new-resources-list {
   list-style: none;
   padding: 0;
 }
 
-ul.resource-item {
+.new-resource-item {
   margin-bottom: 15px;
 }
 
-ul.resource-item a {
+.new-resource-item a {
   color: #007bff;
   text-decoration: none;
 }
 
-ul.resource-item a:hover {
+.new-resource-item a:hover {
   text-decoration: underline;
 }
+
+
+
 .courses-footer {
   text-align: center;
   background-color: #282c34;
