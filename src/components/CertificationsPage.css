@@ -136,8 +136,8 @@ canvas {
   border: 1px solid #ccc;
   background-color: white;
   cursor: crosshair;
-  width: 100%;
-  height: auto;
+  width: 110%;
+  height: 90%;
   max-width: 1000px;
   box-sizing: border-box;
 }
