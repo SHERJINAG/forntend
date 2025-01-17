@@ -65,7 +65,7 @@ const MainPage = () => {
           </div>
           {/* Feature Card 5 */}
           <div style={styles.card}>
-            <h3 style={styles.cardTitle}>AI-Powered Recommendations</h3>
+            <h3 style={styles.cardTitle}>Recommendations</h3>
             <p style={styles.cardDescription}>
               Receive suggestions for further reading and exercises based on your performance and interests.
             </p>
@@ -77,12 +77,12 @@ const MainPage = () => {
       <section id="about" style={styles.section}>
         <h2 style={styles.sectionTitle}>About Us</h2>
         <p style={styles.aboutDescription}>
-          The AI Student Dashboard is a platform designed to enhance student learning with personalized
+          The EDU-Student Dashboard is a platform designed to enhance student learning with personalized
           recommendations, real-time analytics, and adaptive learning paths. We are passionate about using
           Artificial Intelligence to help students learn more efficiently and effectively.
         </p>
         <p style={styles.aboutDescription}>
-          Our platform leverages state-of-the-art AI technologies, including machine learning and natural
+          Our platform leverages state-of-the-art new technologies, including machine learning and natural
           language processing, to provide an experience that adapts to each student’s learning style and
           progress. We believe in empowering students to take control of their learning journey.
         </p>
