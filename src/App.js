@@ -37,6 +37,7 @@ function App() {
         <Route path="/certifications" element={<CertificationsPage />} />
         <Route path="/saved-resources" element={<SavedResourcesPage />} />
        <Route path="/profile" element={<Profile />} />
+  
       </Routes>
     </Router>
   );
