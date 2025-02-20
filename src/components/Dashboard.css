@@ -71,7 +71,7 @@ body {
   border: 1px solid #ddd; /* Subtle border for definition */
   width: 280px; /* Fixed width for uniformity */
   text-align: center; /* Center-align text */
-  min-height: 350px; 
+  height: 220px;
   cursor: pointer; /* Pointer cursor for hover interactivity */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
 }
