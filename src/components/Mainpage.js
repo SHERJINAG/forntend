@@ -21,11 +21,12 @@ const MainPage = () => {
 
       {/* Navigation Links */}
       <nav style={styles.nav}>
-        <Link to="/Mainpage" style={styles.navLink} onClick={() => scrollToSection('home')}>Home</Link>
-<Link to="/Mainpage" style={styles.navLink} onClick={() => scrollToSection('features')}>Features</Link>
-<Link to="/Mainpage" style={styles.navLink} onClick={() => scrollToSection('about')}>About Us</Link>
-<Link to="/Mainpage" style={styles.navLink} onClick={() => scrollToSection('contact')}>Contact Us</Link>
         
+
+        <a href="#home" style={styles.navLink}>Home</a>
+        <a href="#features" style={styles.navLink}>Features</a>
+        <a href="#about" style={styles.navLink}>About Us</a>
+        <a href="#contact" style={styles.navLink}>Contact Us</a>
         <Link to="/login" style={styles.navLink}>Login</Link>
       </nav>
 
