@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+
 
 import React from "react";
 import { Link } from "react-router-dom";
@@ -22,10 +21,10 @@ const MainPage = () => {
 
       {/* Navigation Links */}
       <nav style={styles.nav}>
-        <Link to="/home" style={styles.navLink} onClick={() => scrollToSection('home')}>Home</Link>
-<Link to="/features" style={styles.navLink} onClick={() => scrollToSection('features')}>Features</Link>
-<Link to="/about" style={styles.navLink} onClick={() => scrollToSection('about')}>About Us</Link>
-<Link to="/contact" style={styles.navLink} onClick={() => scrollToSection('contact')}>Contact Us</Link>
+        <Link to="/Mainpage" style={styles.navLink} onClick={() => scrollToSection('home')}>Home</Link>
+<Link to="/Mainpage" style={styles.navLink} onClick={() => scrollToSection('features')}>Features</Link>
+<Link to="/Mainpage" style={styles.navLink} onClick={() => scrollToSection('about')}>About Us</Link>
+<Link to="/Mainpage" style={styles.navLink} onClick={() => scrollToSection('contact')}>Contact Us</Link>
         
         <Link to="/login" style={styles.navLink}>Login</Link>
       </nav>
