@@ -23,10 +23,10 @@ const MainPage = () => {
       <nav style={styles.nav}>
         
 
-        <a href="#home" style={styles.navLink}>Home</a>
-        <a href="#features" style={styles.navLink}>Features</a>
-        <a href="#about" style={styles.navLink}>About Us</a>
-        <a href="#contact" style={styles.navLink}>Contact Us</a>
+        <a href="#" style={styles.navLink}>Home</a>
+        <a href="#" style={styles.navLink}>Features</a>
+        <a href="#" style={styles.navLink}>About Us</a>
+        <a href="#" style={styles.navLink}>Contact Us</a>
         <Link to="/login" style={styles.navLink}>Login</Link>
       </nav>
 
